@@ -15,7 +15,7 @@ int printColorMap() {
 
 int main() {
     int result = printColorMap();
-    assert(result == 1); // failing for all from 0-24 numbers
+    assert(result == 1);
     std::cout << "All is well (maybe!)\n";
     return 0;
 }
